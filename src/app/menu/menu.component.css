@@ -1,6 +1,39 @@
-.menu {
-    width:200px;
-    height:100vh;
-    background-color:grey;
-    padding:0;
+.menu-container {
+    display:flex;
+    flex-direction: column;
+    width:16vw;
+    padding:0; 
+}
+.menu-item{
+    display:flex;
+    align-items: center;
+    margin:5% 0;
+    color:#9a9a9a;
+    font-size:18px;
+}
+.menu-item:hover{
+cursor: pointer;
+border:1px solid white;
+background-color: #fff;
+}
+img{
+    width:50px;
+    height: 60px;
+    margin:0 5%;
+}
+.gallery{
+    width:30px;
+    height: 30px;
+}
+.notification{
+    float: right;
+    margin:0 3% 0 30%;
+    background-color:#f1fcfd;
+    padding:6px;
+    border-radius: 3px;
+    color:#9a9a9a;
+}
+.menu-item:hover .notification{
+    background-color:#00bdd8;
+    color:white;
 }
